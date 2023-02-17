@@ -19,7 +19,7 @@ public class FileToJson {
 		ObjectMapper mapper=new ObjectMapper();
 		
 		try {
-			
+			System.out.println("JSON Example");
 			  User user=mapper.readValue(file, User.class);
 			  System.out.println(user);
 			 

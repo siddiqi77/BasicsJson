@@ -19,11 +19,9 @@ public class ObjectToJson {
 	public static void main(String args[]) throws JacksonException {
 		
 		getjson(new User("Sid", "md", 30));
-
 	}
 
 	private static void getjson(User user) throws JacksonException {
-	
 		ObjectMapper mapper=new ObjectMapper();
 		//writerWithDefaultPrettyPrinter() prints in json format
 		String json=mapper.writerWithDefaultPrettyPrinter().writeValueAsString(user);
