@@ -21,10 +21,7 @@ public class FileToJson {
 		try {
 			System.out.println("JSON Example");
 			  User user=mapper.readValue(file, User.class);
-			  System.out.println(user);
-			 
-			
-			
+			  System.out.println(user);	
 		} 
 		catch (JsonMappingException e) {
 			// TODO Auto-generated catch block

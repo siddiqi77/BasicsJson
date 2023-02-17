@@ -6,5 +6,6 @@ class Welcome
     System.out.println("hello");
     System.out.println("world");
      System.out.println("sid"); 
+     System.out.println("welcome");
   }
 }
