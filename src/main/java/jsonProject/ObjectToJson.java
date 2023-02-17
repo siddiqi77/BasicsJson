@@ -26,6 +26,8 @@ public class ObjectToJson {
 		//writerWithDefaultPrettyPrinter() prints in json format
 		String json=mapper.writerWithDefaultPrettyPrinter().writeValueAsString(user);
 		System.out.println(json);
+		
+		
 	}
 	
 		
